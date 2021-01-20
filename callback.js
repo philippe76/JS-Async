@@ -1,5 +1,6 @@
 
 // ******** CALLBACK HELL ************* // 
+
 const getData = (endpoint, callback) => {
 
     const request = new XMLHttpRequest()
@@ -29,3 +30,6 @@ getData('datas/luigi.json', (err, data) => {
         })
     }) 
 })
+
+
+
